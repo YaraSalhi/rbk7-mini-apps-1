@@ -1,2 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+	<br>
+	<table  id ='table'>
+		<tr class='rows'>
+		<td class="cell" id="cell0"></td>
+		<td class="cell" id="cell1"></td>
+		<td class="cell" id="cell2"></td>
+		</tr>
+		<tr class='rows'>
+		<td class="cell" id="cell3"></td>
+		<td class="cell" id="cell4"></td>
+		<td class="cell" id="cell5"></td>
+		</tr>
+		<tr class='rows'>
+		<td class="cell" id="cell6"></td>
+		<td class="cell" id="cell7"></td>
+		<td class="cell" id="cell8"></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+<br>
+<br>
+<br>
+	<button id='btn'>Reset</button>
+	<style>
+		td{
+			border:1px solid #333;
+			height:90px;
+			width:90px;
+			text-align: center;
+			vertical-align: middle;
+			cursor: pointer;
+		}
+		table{
+			border-collapse:collapse;
+			position:absolute;
+			left:40%
+			top:40px;
+		}
+		
+		#cell0,#cell1,#cell2,#cell3,#cell4,#cell5{
+			border-bottom:10px solid black;
+		}
+		#cell2,#cell5,#cell8,#cell1,#cell4,#cell7{
+			border-left:10px solid black;
+		}
+		.cell:hover{
+			background-color: blue;
+		}
+		
 
 
+	</style>
+	<script src='https://code.jquery.com/jquery-2.2.4.js' type='text/javascript'></script>
+<script type='text/javascript' src="app.js"></script>
+</body>
+</html>
